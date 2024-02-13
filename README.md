@@ -20,8 +20,12 @@ To provide a comprehensive understanding and insight into the project, the repos
 - **Proteus Schematics**: Detailed diagrams illustrating the electronic setup and sensor configuration.
 ![Proteus Schematic](images/proteus_schematic.jpg)
 - **GUI Snapshots**: Screenshots displaying the main interface and the graphical presentation of data.
+![Settings Page](images/setting_page_gui.jpg)
+![Front Page](images/front_page_gui.jpg)
+![Graphs Page](images/graphs_page_gui.jpg)
 - **Experimental Setup**: Photographs from the experiments, offering a glimpse into the practical application of the project.
-
+![Lab 1](images/lab1.jpg)
+![Lab 2](images/lab2.jpg)
 ## Objectives and Learning Outcomes
 
 This project not only served as a practical application of embedded systems and software engineering principles but also as a significant learning experience, enhancing my capabilities in:
