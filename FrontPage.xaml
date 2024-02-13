@@ -1,0 +1,37 @@
+﻿<Page x:Class="_6040CEM_GUI_Windows.View.FrontPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_6040CEM_GUI_Windows.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FrontPage">
+
+    <Grid>
+        <Label x:Name="Serial_Comm_" Content="Serial Com:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="10,10,0,0"/>
+        <Button x:Name="ConnectBtn" Content="Connect" HorizontalAlignment="Left" Margin="670,341,0,0" VerticalAlignment="Top" Height="40" Width="100" RenderTransformOrigin="0.491,1.083" BorderBrush="White" FontWeight="Bold" Foreground="#FF386641" FontSize="14" Click="ConnectSerialCom"></Button>
+        <Button x:Name="DisconnectBtn" Content="Disconnect" HorizontalAlignment="Left" Margin="550,341,0,0" VerticalAlignment="Top" Height="40" Width="100" RenderTransformOrigin="0.491,1.083" BorderBrush="White" FontWeight="Bold" Foreground="#FFBC4749" FontSize="14" Click="DisconnectSerialCom" Visibility="Hidden"/>
+        <TextBox x:Name="SerialComRx" HorizontalAlignment="Left" Margin="150,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" Height="50" Background="Black" Foreground="Lime" BorderThickness="3" IsEnabled="False" FontWeight="Bold" Padding="5"/>
+        <Label Content="Received Raw Data:" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Width="150" FontWeight="Bold"/>
+        <GroupBox Header="Filtered data" Height="202" VerticalAlignment="Top" Margin="10,87,425,0">
+            <Grid>
+                <Grid Margin="0,0,81,31">
+                    <Label Content="Sensor Name:" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <Label x:Name="SensorNameLabel1" Content="Temperature (LM35)" HorizontalAlignment="Left" Margin="6,26,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="SensorNameLabel2" Content="Temperature (TCK)" HorizontalAlignment="Left" Margin="6,52,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="SensorNameLabel3" Content="Pressure (MPX4250)" HorizontalAlignment="Left" Margin="6,78,0,0" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Margin="262,0,10,31" RenderTransformOrigin="0.426,0.358">
+                    <Label Content="Values:" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <Label x:Name="SensorValueLabel1" Content="N/A" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="SensorValueLabel2" Content="N/A" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,52,0,0"/>
+                    <Label x:Name="SensorValueLabel3" Content="N/A" HorizontalAlignment="Center" Margin="0,78,0,0" VerticalAlignment="Top"/>
+
+                </Grid>
+            </Grid>
+
+        </GroupBox>
+
+    </Grid>
+</Page>
