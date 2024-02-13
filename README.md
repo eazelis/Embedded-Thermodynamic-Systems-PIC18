@@ -18,6 +18,7 @@ This repository is dedicated to my dissertation project at the university, where
 
 To provide a comprehensive understanding and insight into the project, the repository includes a variety of visual materials:
 - **Proteus Schematics**: Detailed diagrams illustrating the electronic setup and sensor configuration.
+![Proteus Schematic](images/proteus_schematic.jpg)
 - **GUI Snapshots**: Screenshots displaying the main interface and the graphical presentation of data.
 - **Experimental Setup**: Photographs from the experiments, offering a glimpse into the practical application of the project.
 
